@@ -10,6 +10,9 @@ namespace ProyectoCreadoLocalmente
     {
         static void Main(string[] args)
         {
+            Estudiante estudiante1 = new Estudiante(11.1, 10.5, 9.5);
+            Console.WriteLine("Promedio del estudiante: "+ estudiante1.getAverage());
+            Console.ReadLine();
         }
     }
 }
