@@ -12,11 +12,14 @@ namespace ProyectoInicial
         private int nota1;
         private int nota2;
         private int nota3;
+        private int nota4;
 
-        public Estudiante(int n1, int n2, int n3) {
+        public Estudiante(int n1, int n2, int n3, int n4) {
             Nota1 = n1;
             Nota2 = n2;
             Nota3 = n3;
+            Nota4 = n4;
+
         }
         /// <summary>
         /// Obtiene el promedio de las 3 notas, retornando un double
@@ -62,6 +65,19 @@ namespace ProyectoInicial
             set
             {
                 nota3 = value;
+            }
+        }
+
+        public int Nota4
+        {
+            get
+            {
+                return nota4;
+            }
+
+            set
+            {
+                nota4 = value;
             }
         }
     }
